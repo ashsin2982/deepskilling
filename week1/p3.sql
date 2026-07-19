@@ -14,8 +14,6 @@ INSERT INTO Employee VALUES
 (102,'Aman','IT',50000),
 (103,'Archi','Finance',45000);
 
-
-
 CREATE PROCEDURE GetEmployee(IN p_emp_id INT)
 BEGIN
     SELECT * FROM Employee
