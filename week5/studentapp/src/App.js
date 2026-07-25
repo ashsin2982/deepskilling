@@ -1,17 +1,16 @@
-import { CalculateScore } from './src/components/CalculateScore';
+import React from 'react';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
-
-    return (
-        <div>
-            <CalculateScore
-                Name={"Steeve"}
-                School={"DNV Public School"}
-                total={284}
-                goal={3}
-            />
-        </div>
-    );
+  return (
+    <div>
+      <Home />
+      <About />
+      <Contact />
+    </div>
+  );
 }
 
 export default App;
